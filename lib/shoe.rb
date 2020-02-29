@@ -1,4 +1,3 @@
-class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
   
@@ -16,4 +15,4 @@ class Shoe
     @brand = brand
     BRANDS << brand 
   end
-end
+endclass Shoe
